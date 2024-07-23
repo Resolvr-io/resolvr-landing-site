@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 export function Footer() {
   return (
-    <footer className="w-full relative z-10">
+    <footer className="w-full relative z-0">
       <div className="m-auto max-w-screen-xl px-4 py-2 lg:py-[10.3px] lg:px-25">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-12 mt-8 font-bold">
           Get On The Grid
@@ -23,7 +23,7 @@ export function Footer() {
           {/* <Link href="/">Privacy policy</Link> */}
         </div>
       </div>
-      <div className="hidden lg:block absolute w-full bottom-0 -z-10">
+      <div className="hidden lg:block absolute w-full bottom-0 -z-20">
         <Background />
       </div>
     </footer>

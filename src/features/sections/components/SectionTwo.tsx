@@ -24,7 +24,7 @@ export function SectionTwo() {
         <div className="relative max-w-md">
           {contentMap.map((content, i) => {
             return (
-              <div key={i} className="mb-10">
+              <div key={i} className="mb-10 last:mb-0">
                 <h3 className="mb-2 text-sectionHeading text-section-black font-bold">
                   {content.title}
                 </h3>
@@ -33,10 +33,10 @@ export function SectionTwo() {
             );
           })}
         </div>
-        <div className="hidden lg:block absolute right-0 top-60 -z-10">
+        <div className="hidden lg:block absolute right-10 top-60 -z-10">
           <Image
             alt="Engine Background"
-            src={`${process.env.BASE_PATH}/engine.png`}
+            src={`${process.env.BASE_PATH || ""}/engine-adjusted.png`}
             width={579}
             height={869}
           />

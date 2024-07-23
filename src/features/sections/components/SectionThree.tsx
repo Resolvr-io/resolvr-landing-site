@@ -16,7 +16,7 @@ const contentMap = [
 ];
 export function SectionThree() {
   return (
-    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25 overflow-hidden">
+    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
           Streamline Outdated Practices with Modern Workflows
@@ -24,7 +24,7 @@ export function SectionThree() {
         <div className="relative max-w-md">
           {contentMap.map((content, i) => {
             return (
-              <div key={i} className="mb-10">
+              <div key={i} className="mb-10 last:mb-0">
                 <h3 className="mb-2 text-sectionHeading text-section-black font-bold">
                   {content.title}
                 </h3>
@@ -34,11 +34,11 @@ export function SectionThree() {
           })}
         </div>
       </div>
-      <div className="md:w-[400px] md:h-[600px] lg:h-[1200px] lg:w-[800px] hidden lg:block absolute right-0 top-60 -z-10 overflow-hidden">
+      <div className="lg:w-[500px] lg:h-[750px] xl:h-[1200px] xl:w-[800px] hidden lg:block absolute right-24 top-60 -z-10 overflow-hidden">
         <Image
-          src={`${process.env.BASE_PATH}/carThree.png`}
+          src={`${process.env.BASE_PATH || ""}/carThree-adjusted.png`}
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
           alt="Car Two Background"
         />
       </div>

@@ -23,7 +23,7 @@ export function SectionOne() {
       </div>
       <div className="hidden lg:block absolute top-10 lg:right-0 -z-10 overflow-hidden">
         <Image
-          src={`${process.env.BASE_PATH}/carOne.png`}
+          src={`${process.env.BASE_PATH || ""}/carOne-adjusted.jpg`}
           alt="Car One Background"
           width={900}
           height={516}
