@@ -36,7 +36,7 @@ export function SectionThree() {
       </div>
       <div className="lg:w-[500px] lg:h-[750px] xl:h-[1200px] xl:w-[800px] hidden lg:block absolute right-24 top-60 -z-10 overflow-hidden">
         <Image
-          src={`${process.env.BASE_PATH || ""}/carThree-adjusted.png`}
+          src={`/carThree-adjusted.png`}
           fill
           style={{ objectFit: "contain" }}
           alt="Car Two Background"
