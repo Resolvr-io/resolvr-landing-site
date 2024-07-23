@@ -14,7 +14,7 @@ export function Header() {
           <a href="mailto:info@resolvr.io">
             <Button
               variant="outline"
-              className="hover:bg-orange hover:text-white px-4 py-2 bg-orange border-orange rounded-none uppercase"
+              className="hover:bg-orange hover:text-white px-8 py-3 bg-orange border-orange rounded-none uppercase"
             >
               Book a Demo
             </Button>

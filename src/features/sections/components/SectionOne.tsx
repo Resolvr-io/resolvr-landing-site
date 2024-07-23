@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import CarOne from "./images/CarOne";
 import Image from "next/image";
+
 export function SectionOne() {
   return (
     <div className="overflow-hidden z-10 relative w-full bg-section-dark pb-8 pt-8 lg:pb-40 lg:pt-20">
@@ -23,7 +23,12 @@ export function SectionOne() {
         </a>
       </div>
       <div className="hidden lg:block absolute top-10 lg:right-0 -z-10 overflow-hidden">
-        <CarOne />
+        <Image
+          src="/carOne.png"
+          alt="Car One Background"
+          width={900}
+          height={516}
+        />
       </div>
     </div>
   );

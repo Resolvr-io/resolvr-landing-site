@@ -1,4 +1,4 @@
-import Engine from "./images/Engine";
+import Image from "next/image";
 
 const contentMap = [
   {
@@ -16,9 +16,9 @@ const contentMap = [
 ];
 export function SectionTwo() {
   return (
-    <div className="z-10 relative w-full bg-section-light pb-8 pt-8 lg:pb-20 lg:pt-20">
+    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-20 lg:pt-20">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
-        <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-20 font-bold">
+        <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
           Experience the power of real time premium processing
         </h2>
         <div className="relative max-w-md">
@@ -33,9 +33,14 @@ export function SectionTwo() {
             );
           })}
         </div>
-      </div>
-      <div className="hidden lg:block absolute right-0 top-60 -z-10">
-        <Engine />
+        <div className="hidden lg:block absolute right-0 top-60 -z-10">
+          <Image
+            alt="Engine Background"
+            src="/engine.png"
+            width={579}
+            height={869}
+          />
+        </div>
       </div>
     </div>
   );
