@@ -16,7 +16,7 @@ const contentMap = [
 ];
 export function SectionThree() {
   return (
-    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-40 lg:pt-20 overflow-hidden">
+    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25 overflow-hidden">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
           Replace slow, outdated practices with modern streamlined workflows
@@ -37,10 +37,8 @@ export function SectionThree() {
       <div className="md:w-[400px] md:h-[600px] lg:h-[1200px] lg:w-[800px] hidden lg:block absolute right-0 top-60 -z-10 overflow-hidden">
         <Image
           src="/carThree.png"
-          // width={900}
           fill
-          style={{ objectFit: "contain" }}
-          // height={500}
+          style={{ objectFit: "cover" }}
           alt="Car Two Background"
         />
       </div>

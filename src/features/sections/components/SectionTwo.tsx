@@ -16,7 +16,7 @@ const contentMap = [
 ];
 export function SectionTwo() {
   return (
-    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-20 lg:pt-20">
+    <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
           Experience the power of real time premium processing
