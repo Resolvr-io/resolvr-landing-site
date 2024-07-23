@@ -3,7 +3,7 @@ import Image from "next/image";
 const contentMap = [
   {
     title: "Engineered for Reinsurance",
-    text: "Resolvr’s Reinsurance Premium Management platform (RPM) was built to handle the complexities of global reinsurance deals, with real-time invoicing collaboration between parties and  parallel processing of premium and commission splits.",
+    text: "Resolvr’s Reinsurance Premium Manager (RPM) platform was built to handle the complexities of global reinsurance deals, with integrated invoicing collaboration between parties and parallel processing of premium and commission splits.",
   },
   {
     title: "Welcome to the Digital Fast-Lane",
@@ -19,7 +19,7 @@ export function SectionThree() {
     <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25 overflow-hidden">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
-          Replace slow, outdated practices with modern streamlined workflows
+          Streamline Outdated Practices with Modern Workflows
         </h2>
         <div className="relative max-w-md">
           {contentMap.map((content, i) => {
