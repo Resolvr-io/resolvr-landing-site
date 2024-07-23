@@ -9,9 +9,7 @@ export function SectionOne() {
           Accelerated premium processing for reinsurance
         </h1>
         <p className="mt-6 text-section-light max-w-sm lg:max-w-md text-lg lg:text-1.5xl">
-          Take pole position with our premium payment experience that
-          streamlines invoicing, payments, and reporting to deliver real-time
-          settlement.
+          Take pole position with Resolvr's Reinsurance Premium Manager — the industry's first global, real-time settlement solution.
         </p>
         <a href="mailto:info@resolvr.io">
           <Button
