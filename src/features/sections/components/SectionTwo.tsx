@@ -36,7 +36,7 @@ export function SectionTwo() {
         <div className="hidden lg:block absolute right-0 top-60 -z-10">
           <Image
             alt="Engine Background"
-            src="/engine.png"
+            src={`${process.env.BASE_PATH}/engine.png`}
             width={579}
             height={869}
           />
