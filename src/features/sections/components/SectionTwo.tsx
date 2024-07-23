@@ -6,12 +6,12 @@ const contentMap = [
     text: "Premiums and commissions cross the finish line as soon as they are green-flagged, boosting investment returns and increasing reserves -  fueling more deals.",
   },
   {
-    title: "Shift into High Gear with Real Time Settlements",
+    title: "Shift into High Gear with Real-Time Settlements",
     text: "Keep pace with the breakneck speeds of today’s global financial markets with instant premium settlements in multiple currencies.",
   },
   {
     title: "Leave Outdated Premium Processing in the Dust",
-    text: "Optimize performance and reduce delays with a single view of truth dashboard, real-time collaboration and approval, and automated reconciliation and allocation.",
+    text: "Optimize performance and reduce delays with a single source of truth, simplified collaboration and approvals, and automated reconciliation and allocation.",
   },
 ];
 export function SectionTwo() {
@@ -19,7 +19,7 @@ export function SectionTwo() {
     <div className="z-10 relative w-full bg-section-light pt-8 lg:pb-25 lg:pt-25">
       <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h2 className="text-4xl lg:text-sectionTitle text-section-teal mb-6 lg:mb-20 font-bold">
-          Experience the power of real time premium processing
+          Experience the Power of Real-Time Premium Processing
         </h2>
         <div className="relative max-w-md">
           {contentMap.map((content, i) => {
