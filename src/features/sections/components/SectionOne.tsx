@@ -12,7 +12,7 @@ export function SectionOne() {
           Take pole position with Resolvr&apos;s Reinsurance Premium Manager —
           the industry&apos;s first global, real-time settlement solution.
         </p>
-        <a href="mailto:info@resolvr.io">
+        <a href="mailto:info@resolvr.io" className="self-start">
           <Button
             variant="outline"
             className="uppercase px-8 py-3 rounded-none text-section-light hover:text-section-dark hover:bg-section-light bg-transparent border-section-light mt-12 self-start"
