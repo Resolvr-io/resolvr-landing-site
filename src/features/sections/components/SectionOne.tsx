@@ -25,8 +25,8 @@ export function SectionOne() {
         <Image
           src={`/car-adjusted2.png`}
           alt="Car One Background"
-          width={900}
-          height={516}
+          width={1200}
+          height={500}
         />
       </div>
     </div>
