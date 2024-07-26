@@ -4,7 +4,7 @@ import Image from "next/image";
 export function SectionOne() {
   return (
     <div className="overflow-hidden z-10 relative w-full bg-section-dark pb-8 pt-8 lg:pb-40 lg:pt-20">
-      <div className="relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
+      <div className="z-10 relative max-w-screen-xl m-auto flex flex-col lg:px-25 px-4">
         <h1 className="text-orange text-5xl lg:text-7.5xl font-bold mt-3">
           Accelerated Premium Processing for Reinsurance
         </h1>
@@ -21,12 +21,14 @@ export function SectionOne() {
           </Button>
         </a>
       </div>
-      <div className="hidden lg:block absolute top-10 lg:right-0 -z-10 overflow-hidden">
+      <div className="-z-10">
         <Image
           src={`/car-adjusted2.png`}
           alt="Car One Background"
-          width={1200}
-          height={500}
+          // width={1200}
+          // height={500}
+          objectFit="cover"
+          fill
         />
       </div>
     </div>
