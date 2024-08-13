@@ -9,7 +9,7 @@ export function Footer() {
           Get On The Grid
         </h2>
         <p className="lg:text-1.5xl text-[#292929]">Test Drive Resolvr Today</p>
-        <a href="mailto:info@resolvr.io">
+        <a href="https://calendly.com/aaron-resolvr/discovery-meeting">
           <Button
             variant="outline"
             className="hover:bg-orange mt-2 lg:mt-6 hover:text-white px-8 py-3 bg-orange border-orange rounded-none uppercase"
