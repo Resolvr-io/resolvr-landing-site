@@ -11,7 +11,7 @@ export function Header() {
           </Link>
         </div>
         <nav>
-          <a href="mailto:info@resolvr.io">
+          <a href="https://calendly.com/aaron-resolvr/discovery-meeting">
             <Button
               variant="outline"
               className="hover:bg-orange hover:text-white px-8 py-3 bg-orange border-orange rounded-none uppercase"
